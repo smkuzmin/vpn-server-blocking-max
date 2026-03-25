@@ -1,6 +1,6 @@
-# Блокировка MAX, VK, OK, Mail.Ru на VPN-сервере
+## Блокировка MAX, VK, OK, Mail.Ru на VPN-сервере
 
-## Зачем это нужно
+### Зачем это нужно
 
 Мессенджер **MAX** [отслеживает](https://habr.com/ru/articles/1006666/) пользователей, подключённых через **VPN**, и может передавать реальный **IP**-адрес сервера в **РКН**.
 Чтобы исключить риск раскрытия своей инфраструктуры, мы блокируем весь исходящий **Web**-трафик (порты **80**/**443**) от **VPN**-клиентов к доменам следующих сервисов:
@@ -11,13 +11,13 @@
 - **Mail.ru Group**
 
 
-## Клиентская часть
+### Клиентская часть
 
 - **Приложение**: [Amnezia VPN](https://play.google.com/store/apps/details?id=org.amnezia.vpn) для Android
 - **Развёртывание**: автоматическое, через приложение (инструкция в [видео](https://www.youtube.com/watch?v=ckIFYUkqDnc))
 
 
-## Серверная часть
+### Серверная часть
 
 - **Хостинг**: Бюджетный VPS в ЕС: [HostVDS](https://hostvds.com/?affiliate_uuid=45e30dfa-ebf0-4f0c-aca2-3f3cfd07f84f), [VDSina](https://vdsina.com/ru) (Финляндия, Латвия, Германия, Нидерланды)
 - **ОС**: Ubuntu 22.04 LTS
@@ -49,9 +49,9 @@
 
 ***
 
-### Содержимое скриптов и файлов конфигурации
+#### Содержимое скриптов и файлов конфигурации
 
-#### ipaggr
+##### ipaggr
 ```perl
 #!/usr/bin/perl
 
@@ -260,7 +260,7 @@ sub merge_comments {
 }
 ```
 
-#### max-block
+##### max-block
 ```bash
 #!/bin/bash
 
@@ -309,7 +309,7 @@ cat 2>/dev/null "$IPS"|grep -Ev '(^#|^[ \t]*$)' \
  |tee -a -i "$LOG"
 ```
 
-#### max-block-clear
+##### max-block-clear
 ```bash
 #!/bin/bash
 
@@ -323,7 +323,7 @@ echo>/var/log/max-block.log ""
 /root/max-block-status
 ```
 
-#### max-block-cron-off
+##### max-block-cron-off
 ```bash
 #!/bin/bash
 
@@ -334,7 +334,7 @@ crontab 2>/dev/null -l|grep -v max-block|crontab -
 crontab 2>/dev/null -l|grep --color max-block
 ```
 
-#### max-block-cron-on
+##### max-block-cron-on
 ```bash
 #!/bin/bash
 
@@ -348,7 +348,7 @@ crontab 2>/dev/null -l|grep --color max-block && exit
 crontab 2>/dev/null -l|grep --color max-block
 ```
 
-#### max-block-log
+##### max-block-log
 ```bash
 #!/bin/bash
 
@@ -356,7 +356,7 @@ crontab 2>/dev/null -l|grep --color max-block
 cat /var/log/max-block.log
 ```
 
-#### max-block-status
+##### max-block-status
 ```bash
 #!/bin/bash
 
@@ -369,7 +369,7 @@ echo
 iptables -L DOCKER-USER -v -n|grep --color '\/\* max-block: .*'
 ```
 
-#### max-block.domains
+##### max-block.domains
 ```powershell
 # MAX domains
 api.oneme.ru                # Основной API: чаты, авторизация, синхронизация
@@ -506,7 +506,7 @@ tracker.vk.com              # VK: трекер пользовательских 
 vk-analytics.ru             # VK: платформа аналитики для приложений
 ```
 
-#### max-block.ips
+##### max-block.ips
 ```powershell
 3.85.158.60        # checkip.amazonaws.com
 3.215.252.116      # checkip.amazonaws.com
