@@ -370,7 +370,7 @@ iptables -L DOCKER-USER -v -n|grep --color '\/\* max-block: .*'
 ```
 
 ##### max-block.domains
-```powershell
+```
 # MAX domains
 api.oneme.ru                # Основной API: чаты, авторизация, синхронизация
 fd.oneme.ru                 # Файловый сервис: загрузка/скачивание медиа
