@@ -511,13 +511,18 @@ vk-analytics.ru             # VK: платформа аналитики для �
 3.85.158.60        # checkip.amazonaws.com
 3.215.252.116      # checkip.amazonaws.com
 3.223.26.135       # checkip.amazonaws.com
+3.226.107.39       # checkip.amazonaws.com
 5.45.196.64        # ipv4-internet.yandex.net
 5.61.16.0/21       # ODNOKLASSNIKI-FRONT
 5.61.232.0/21      # VK-FRONT
 5.101.40.0/22      # ODNOKLASSNIKI-FRONT
 5.181.60.0/22      # VK-FRONT
 5.188.140.0/22     # VKCS
+13.214.48.212      # checkip.amazonaws.com
 13.218.10.232      # checkip.amazonaws.com
+13.228.145.236     # checkip.amazonaws.com
+18.136.167.143     # checkip.amazonaws.com
+18.138.188.36      # checkip.amazonaws.com
 31.13.72.52        # mmg.whatsapp.net
 31.13.73.52        # mmg.whatsapp.net
 31.177.104.0/22    # RU-DTP-20110314
@@ -536,13 +541,24 @@ vk-analytics.ru             # VK: платформа аналитики для �
 45.84.128.0/22     # VK-FRONT
 45.136.20.0/22     # ODNOKLASSNIKI-FRONT
 46.51.192.183      # checkip.amazonaws.com
+47.130.34.9        # checkip.amazonaws.com
 52.7.205.187       # checkip.amazonaws.com
 52.48.247.5        # checkip.amazonaws.com
 52.72.44.208       # checkip.amazonaws.com
+52.74.94.181       # checkip.amazonaws.com
+52.74.210.187      # checkip.amazonaws.com
+52.76.52.124       # checkip.amazonaws.com
+52.77.17.64        # checkip.amazonaws.com
 52.205.193.90      # checkip.amazonaws.com
 52.208.199.116     # checkip.amazonaws.com
+52.211.115.45      # checkip.amazonaws.com
+54.170.77.26       # checkip.amazonaws.com
+54.195.239.56      # checkip.amazonaws.com
 54.225.183.3       # checkip.amazonaws.com
 54.228.15.104      # checkip.amazonaws.com
+57.144.111.32      # mmg.whatsapp.net
+57.144.113.32      # mmg.whatsapp.net
+57.144.249.32      # mmg.whatsapp.net
 62.217.160.0/20    # VK-FRONT
 64.190.63.222      # vkvideo.com
 64.233.161.188     # mtalk.google.com
@@ -563,21 +579,21 @@ vk-analytics.ru             # VK: платформа аналитики для �
 84.23.52.0/22      # VKCS
 85.192.32.0/22     # VKCS
 87.239.104.0/21    # VKCS
-87.240.129.133     # app.vk.com
+87.240.129.133     # app.vk.com, count.vk.com, donate.vk.com, firebase.vk.com, games.vk.com, m.vk.com, mobile.vk.com, new.vk.com, push.vk.com, st.vk.com, st2.vk.com, st3.vk.com, st4.vk.com, stat.vk.com, static.vk.com, tracker.vk.com, video.vk.com, vk.cc, vk.com, vk.me, vk.ru, vkvideo.ru, www.vk.com
 87.240.129.140     # api.vk.com
-87.240.129.187     # dev.vk.com
+87.240.129.187     # dev.vk.com, mail.vk.com, platform.vk.com, userapi.com, vk.link, vkuseraudio.net, vkuservideo.net
 87.240.129.191     # vk-portal.net
 87.240.132.64      # dev.vk.com
-87.240.132.67      # app.vk.com
-87.240.132.72      # app.vk.com
-87.240.132.78      # app.vk.com
+87.240.132.67      # app.vk.com, count.vk.com, donate.vk.com, firebase.vk.com, games.vk.com, m.vk.com, mobile.vk.com, new.vk.com, push.vk.com, st.vk.com, st2.vk.com, st3.vk.com, st4.vk.com, stat.vk.com, static.vk.com, tracker.vk.com, video.vk.com, vk.cc, vk.com, vk.me, vk.ru, vkvideo.ru, www.vk.com
+87.240.132.72      # app.vk.com, count.vk.com, donate.vk.com, firebase.vk.com, games.vk.com, m.vk.com, mobile.vk.com, new.vk.com, push.vk.com, st.vk.com, st2.vk.com, st3.vk.com, st4.vk.com, stat.vk.com, static.vk.com, tracker.vk.com, video.vk.com, vk.cc, vk.com, vk.me, vk.ru, vkvideo.ru, www.vk.com
+87.240.132.78      # app.vk.com, count.vk.com, donate.vk.com, firebase.vk.com, games.vk.com, m.vk.com, mobile.vk.com, new.vk.com, push.vk.com, st.vk.com, st2.vk.com, st3.vk.com, st4.vk.com, stat.vk.com, static.vk.com, tracker.vk.com, video.vk.com, vk.cc, vk.com, vk.me, vk.ru, vkvideo.ru, www.vk.com
 87.240.137.130     # api.vk.com
 87.240.137.137     # pp.userapi.com
-87.240.137.164     # app.vk.com
+87.240.137.164     # app.vk.com, count.vk.com, donate.vk.com, firebase.vk.com, games.vk.com, m.vk.com, mobile.vk.com, new.vk.com, push.vk.com, st.vk.com, st2.vk.com, st3.vk.com, st4.vk.com, stat.vk.com, static.vk.com, tracker.vk.com, video.vk.com, vk.cc, vk.com, vk.me, vk.ru, vkvideo.ru, www.vk.com
 87.240.137.206/31  # api.vk.com
 87.240.137.208     # api.vk.com
 87.240.139.193     # api.vk.com
-87.240.190.64      # mail.vk.com
+87.240.190.64      # mail.vk.com, platform.vk.com, userapi.com, vk.link
 87.240.190.70      # api.vk.com
 87.240.190.75      # api.vk.com
 87.240.190.77      # pp.userapi.com
@@ -599,10 +615,10 @@ vk-analytics.ru             # VK: платформа аналитики для �
 91.219.224.0/22    # KZ-VKTECH-20101026
 91.231.132.0/22    # RU-NETBRIDGE
 92.38.217.0/24     # BLINK-NET
-93.186.225.194     # app.vk.com
+93.186.225.194     # app.vk.com, count.vk.com, donate.vk.com, firebase.vk.com, games.vk.com, m.vk.com, mobile.vk.com, new.vk.com, push.vk.com, st.vk.com, st2.vk.com, st3.vk.com, st4.vk.com, stat.vk.com, static.vk.com, tracker.vk.com, video.vk.com, vk.cc, vk.com, vk.me, vk.ru, vkvideo.ru, www.vk.com
 93.186.225.200     # pp.userapi.com
 93.186.225.205     # api.vk.com
-93.186.237.1       # connect.vk.com
+93.186.237.1       # connect.vk.com, id.vk.com, login.vk.com, oauth.vk.com
 93.186.237.6/31    # persiq.vk.com
 93.186.237.16      # persiq.vk.com
 94.100.176.0/20    # VK-FRONT
@@ -615,9 +631,9 @@ vk-analytics.ru             # VK: платформа аналитики для �
 95.163.208.0/21    # VKCS
 95.163.216.0/22    # VK-FRONT
 95.163.248.0/21    # VKCS
-95.213.27.254      # vk-apps.com
+95.213.27.254      # vk-apps.com, vk-apps.ru
 95.213.37.126      # vkuser.net
-95.213.56.1        # connect.vk.com
+95.213.56.1        # connect.vk.com, id.vk.com, login.vk.com, oauth.vk.com
 95.213.56.2/31     # persiq.vk.com
 95.213.56.4        # persiq.vk.com
 98.94.198.74       # checkip.amazonaws.com
@@ -632,8 +648,10 @@ vk-analytics.ru             # VK: платформа аналитики для �
 109.120.188.0/22   # VKCS
 128.140.168.0/21   # VK-FRONT
 130.49.224.0/19    # RU-NETBRIDGE-19880518
+142.250.147.188    # mtalk.google.com
 142.250.150.188    # mtalk.google.com
 142.251.1.188      # mtalk.google.com
+142.251.9.188      # mtalk.google.com
 146.185.208.0/22   # VKCS
 146.185.240.0/22   # VKCS
 149.154.167.99     # main.telegram.org
@@ -664,7 +682,7 @@ vk-analytics.ru             # VK: платформа аналитики для �
 185.241.192.0/22   # VKCS
 188.93.56.0/21     # VK-FRONT
 188.225.23.170     # vk-play.ru
-193.168.47.254     # beget.com
+193.168.47.254     # beget.com, beget.ru
 193.203.40.0/22    # ODNOKLASSNIKI-FRONT
 194.186.63.0/24    # RU-SOVINTEL-MSK-MAILRU-OFFICE-NET
 195.211.20.0/22    # RU-NETBRIDGE-20090909
